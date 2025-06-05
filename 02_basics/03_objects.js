@@ -19,13 +19,14 @@ const JsUser = {
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
-
-console.log(JsUser.age)
+// console.log(typeof JsUser);
+//object
+// console.log(JsUser.age)
 // console.log(JsUser["email"])
 // need to use quotes if using square brackets
 //console.log(JsUser.full name) will not work
 // console.log(JsUser["full name"])
-//nedd to use square brackets if key has quotes
+//need to use square brackets if key has quotes
 // console.log(JsUser[mySym])
 
 JsUser.email = "hitesh@chatgpt.com"
