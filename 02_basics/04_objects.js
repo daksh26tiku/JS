@@ -49,11 +49,12 @@ console.log(typeof users);
 users[1].email
 // console.log(tinderUser);
 
+// creating arrays of attributes
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));//checks if the property exists in the object
 
 
 const course = {
@@ -63,6 +64,8 @@ const course = {
 }
 
 // course.courseInstructor
+
+// rewriting the above line using destructuring
 
 const {courseInstructor: instructor} = course
 
