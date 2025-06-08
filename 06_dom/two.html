@@ -9,12 +9,28 @@
     <div class="parent">
         <div class="day">Monday</div>
         <div class="day">Tuesday</div>
-        <div class="day">Wednesday</div>
+        <div class="day">Wednesday</div> 
         <div class="day">Thursday</div>
     </div>
 </body>
 <script>
-    const parent = doxcument.querySelector('.parent');
-    console.log(parent.children[1].innerText);
+    const parent = document.querySelector('.parent');
+    // console.log(parent.children[1].innerText);// Tuesday
+    const newArray = Array.from(parent.children);
+    newArray.forEach((day)=>{
+        console.log(day.innerHTML);
+        if(day.innerHTML === 'Tuesday') {
+            day.style.color = 'orange';
+        }
+    });
+    // console.log(parent.firstElementChild);
+    // console.log(parent.lastElementChild);
+
+    const dayOne = document.querySelector('.day')
+    // console.log(dayOne);
+    // console.log(dayOne.parentElement);
+    // console.log(dayOne.nextElementSibling);
+
+    console.log("NODES: ", parent.childNodes);
 </script>
 </html>
