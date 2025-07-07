@@ -4,15 +4,17 @@ const score = 400
 const balance = new Number(100)
 // console.log(balance);
 
-// console.log(balance.toString().length);
-// console.log(balance.toFixed(1));
+// console.log(balance.toString().length);//converts to string and then gets length
+// console.log(balance.toFixed(1));//100.0
+// console.log(balance.toFixed(2));//100.00
 
 const otherNumber = 123.8966
 
 // console.log(otherNumber.toPrecision(4));
 
 const hundreds = 1000000
-// console.log(hundreds.toLocaleString('en-IN'));
+// console.log(hundreds.toLocaleString('en-IN'));//10,00,000
+// console.log(hundreds.toLocaleString('en-US'));//1,000,000
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
@@ -22,7 +24,7 @@ const hundreds = 1000000
 // console.log(Math.ceil(4.2));
 // console.log(Math.floor(4.9));
 // console.log(Math.min(4, 3, 6, 8));
-// console.log(Math.max(4, 3, 6, 8));
+// console.log(Math.max(4, 3, 6, 8)) ;
 
 //Math.random returns value between 0 and 1
 

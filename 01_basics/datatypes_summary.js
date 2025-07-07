@@ -41,3 +41,5 @@ console.log(typeof anotherId);//symbol
 console.log(typeof myFunction);//function
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//primitive(stack memory) vs reference(heap memory)
