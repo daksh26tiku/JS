@@ -1,5 +1,5 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const tinderUser = new Object()//singleton
+const tinderUser = {}//object literal(not singleton)
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -7,6 +7,7 @@ tinderUser.isLoggedIn = false
 
 // console.log(tinderUser);
 
+//object inside an object
 const regularUser = {
     email: "some@gmail.com",
     fullname: {
@@ -25,9 +26,9 @@ const obj4 = {5: "a", 6: "b"}
 
 // const obj3 = { obj1, obj2 }
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
-
+//Object.assign(target, ...sources)
 const obj3 = {...obj1, ...obj2, ...obj4}
-console.log(obj3);
+// console.log(obj3);
 
 
 const users = [

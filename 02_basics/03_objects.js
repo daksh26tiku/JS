@@ -28,6 +28,7 @@ const JsUser = {
 // console.log(JsUser["full name"])
 //need to use square brackets if key has quotes
 // console.log(JsUser[mySym])
+//only square brackets can be used to access symbols as keys
 
 JsUser.email = "hitesh@chatgpt.com"
 // Object.freeze(JsUser) 
@@ -41,7 +42,7 @@ JsUser.greeting = function(){
 JsUser.greetingTwo = function(){
     console.log(`Hello JS user, ${this.name}`);
 }
-// console.log(JsUser.greeting);
+console.log(JsUser.greeting);
 // will return the function reference
-console.log(JsUser.greeting());
+console.log(JsUser.greeting())
 console.log(JsUser.greetingTwo());
