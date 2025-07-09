@@ -39,11 +39,14 @@ console.log(loginUserMessage("hitesh"))
 // console.log(loginUserMessage("hitesh"))
 
 
-function calculateCartPrice(val1, val2, ...num1){
+function calculateCartPrice(val1, val2, ...num1)
+//rest operator(similar to spread operator)
+{
     return num1
 }
 
 // console.log(calculateCartPrice(200, 400, 500, 2000))
+//[500, 2000]
 
 const user = {
     username: "hitesh",
