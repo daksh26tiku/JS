@@ -28,7 +28,7 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 //Object.assign(target, ...sources)
 const obj3 = {...obj1, ...obj2, ...obj4}
-// console.log(obj3);
+console.log(obj3);
 
 
 const users = [
@@ -47,13 +47,13 @@ const users = [
 ]
 console.log(typeof users);
 
-users[1].email
-// console.log(tinderUser);
+console.log(users[2].email);//
+console.log(tinderUser);
 
 // creating arrays of attributes
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));//checks if the property exists in the object
 

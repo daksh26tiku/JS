@@ -5,7 +5,7 @@
     // named IIFE
     console.log(`DB CONNECTED`);
 })();
-// this semicolon is neccessary here to stop the contect of the above iife
+// this semicolon is neccessary here to stop the context of the above iife
 
 ( (name) => {
     console.log(`DB CONNECTED TWO ${name}`);

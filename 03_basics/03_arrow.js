@@ -8,28 +8,28 @@ const user = {
     }
 
 }
-// console.log(user);
+console.log(user);
 
-// user.welcomeMessage()
-// user.username = "sam"
-// user.welcomeMessage()
+user.welcomeMessage()
+user.username = "sam"
+user.welcomeMessage()
 
-// console.log(this);
+console.log(this);
 // prints an empty object as it has no global context
 //however, in browser it prints the window object(global object of the browser)
 
-// function fun() {
-//     console.log(this);
-// }
-// fun()
+function fun() {
+    console.log(this);
+}
+fun()
 // printing this  inside a function prints the global object of node environment
 
-// function chai(){
-//     let username = "hitesh"
-//     console.log(this);
-// }
+function chai(){
+    let username = "hitesh"
+    console.log(this);
+}
 
-// chai()
+chai()
 
 // const chai = function () {
 //     let username = "hitesh"
@@ -48,6 +48,7 @@ const user = {
 // const addTwo = (num1, num2) => {
 //     return num1 + num2
 // }
+// console.log(addTwo(3, 4));//7
 
 // implicit return
 // const addTwo = (num1, num2) =>  num1 + num2
@@ -57,9 +58,9 @@ const user = {
 // const addTwo = (num1, num2) => {username: "hitesh"}
 // this will not work as to returna object we need to wrap it in parentheses
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
-console.log(addTwo(3, 4))
+// const addTwo = (num1, num2) => ({username: "hitesh"})
+// console.log(addTwo(3, 4))
 
-// const myArray = [2, 5, 3, 7, 8]
+// // const myArray = [2, 5, 3, 7, 8]
 
-myArray.forEach()
+// myArray.forEach()

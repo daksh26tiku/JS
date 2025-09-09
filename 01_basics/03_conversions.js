@@ -1,11 +1,11 @@
 let score = "hitesh"
 
-//console.log(typeof score);//string
-//console.log(typeof(score));//string
+// console.log(typeof score);//string
+// console.log(typeof(score));//string
 
 let valueInNumber = Number(score)
-//console.log(typeof valueInNumber);//number
-//console.log(valueInNumber);//NaN
+// console.log(typeof valueInNumber);//number
+// console.log(valueInNumber);//NaN
 
 
 // "33" => 33
@@ -26,14 +26,14 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-// console.log(stringNumber);
+// console.log(stringNumber);//33
 // console.log(typeof stringNumber);//string
 
 // *********************** Operations ***********************
 
 let value = 3
 let negValue = -value
-// console.log(negValue);
+// console.log(negValue);//-3
 
 // console.log(2+2);
 // console.log(2-2);
@@ -63,6 +63,7 @@ let num1, num2, num3
 num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
+console.log(gameCounter++);
 ++gameCounter;
 console.log(gameCounter);
 

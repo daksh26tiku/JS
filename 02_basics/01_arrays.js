@@ -18,10 +18,10 @@ const myArr2 = new Array(1, 2, 3, 4)
 // console.log(myArr.includes(9));// checks if the element is present in the array
 // console.log(myArr.indexOf(3));
 
-// const newArr = myArr.join()// joins the elements into a string
+const newArr = myArr.join()// joins the elements into a string
 
-// console.log(myArr);
-// console.log( newArr);//string
+console.log(myArr);
+console.log(newArr);//string
 
 
 // slice, splice
